@@ -81,3 +81,89 @@ section nav .icons:hover i:hover {
     color: #623726;
     box-shadow: 0 2px 0 0 currentColor;
 }
+
+section .main .main_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .main .main_content .main_text h1{
+    font-size: 90px;
+    line-height: 70px;
+    font-family: pyxidium quick;
+    background: linear-gradient(to right, #623726, #DFA878);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 45px;
+    left: 5%;
+}
+
+section .main .main_content .main_text h1 span{
+    font-size: 70px;
+}
+
+section .main .main_content .main_text p{
+    width: 600px;
+    text-align: justify;
+    line-height: 21px;
+    position: relative;
+    top: 85px;
+    left: 5%;
+}
+
+section .main .main_content .main_image img{
+    width: 650px;
+    position: relative;
+    left: 20px;
+    top: 75px;
+}
+
+section .main .social_icon{
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+
+section .main .social_icon i{
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+section .main .social_icon i:hover {
+    color: #DFA878;
+}
+
+section .main .social_icon:hover i:hover {
+    color: #623726;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
+section .main .button{
+    position: absolute;
+    left: 6%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #DFA878, #623726);
+}
+
+section .main .button a{
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+section .main .button i{
+    color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+section .main .button:hover i{
+    transform: translateX(3px);
+}
