@@ -183,7 +183,8 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <i class="fa-regular fa-star"></i>                    </div>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
                     <a href="#" class="btn">Add To Card</a>
                 </div>
             </div>
@@ -363,11 +364,39 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </div>
+    </div>
+
+    <!-- adout us  -->
+
+    <div class="about" id="About">
+        <h1>Web<span>About Us</span></h1>
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="image/heels.png" alt="" onclick="functio(this)">
+                    <img src="image/heels.png" alt="" onclick="functio(this)">
+                    <img src="image/heels.png" alt="" onclick="functio(this)">
+                    <img src="image/heels.png" alt="" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="image/heels.png" alt="" id="imagebox">
+                </div>
+            </div>
+
+            <div class="about_text">
+                <p>At Heels- Walk in Style, we believe that every woman deserves to feel confident, empowered, and beautiful. Our passion for fashion and footwear has driven us to create a curated collection of stylish heels that are not only fashionable but also comfortable to wear. We understand that the right pair of heels can elevate any outfit and boost your self-assurance, which is why we are dedicated to offering a diverse range of designs to suit every taste and occasion.</p>
+            </div>
+        </div>
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src =small.src
+            }
+        </script>
     </div>
 
 </body>
